@@ -1,0 +1,198 @@
+/*
+ @media (min-width: 320px) and (max-width: 480px) {
+    
+  }
+@media (min-width: 481px) and (max-width: 767px) { 
+  }
+@media (min-width: 768px) and (max-width: 1024px) {
+    } 
+ @media (min-width: 993px) and (max-width: 1200px){
+ }
+
+*/
+
+
+/* start navbar */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar-expand-lg {
+        background-color: #FFFFFF !important;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    .navbar-expand-lg .nav-item .nav-link {
+        text-align: left;
+        margin-left: -52px;
+    }
+    .navbar-expand-lg .nav-item .txt {
+        font-style: inherit;
+        margin-top: 0px;
+        color: #000;
+    }
+    .navbar-expand-lg .nav-item .nav-link .parallelogram-active {
+        display: none;
+    }
+    .navbar-expand-lg .nav-item .nav-link .parallelogram {
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar-expand-lg {
+        background-color: #FFFFFF !important;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    .navbar-expand-lg .nav-item .nav-link {
+        text-align: left;
+        margin-left: -52px;
+    }
+    .navbar-expand-lg .nav-item .txt {
+        font-style: inherit;
+        margin-top: 0px;
+        color: #000;
+    }
+    .navbar-expand-lg .nav-item .nav-link .parallelogram-active {
+        display: none;
+    }
+    .navbar-expand-lg .nav-item .nav-link .parallelogram {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-expand-lg {
+        background-color: #FFFFFF !important;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    .navbar-expand-lg .nav-item .nav-link {
+        text-align: left;
+        margin-left: -52px;
+    }
+    .navbar-expand-lg .nav-item .txt {
+        font-style: inherit;
+        margin-top: 0px;
+        color: #000;
+    }
+    .navbar-expand-lg .nav-item .nav-link .parallelogram-active {
+        display: none;
+    }
+    .navbar-expand-lg .nav-item .nav-link .parallelogram {
+        display: none;
+    }
+}
+
+
+/*end navbar */
+
+
+/*============================================================================================*/
+
+
+/*start home body */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .slider img {
+        width: 100%;
+        height: 300px;
+    }
+    .slider .overlay {
+        position: absolute;
+        top: 300px;
+    }
+    .slider .overlay .title {
+        font-size: 27px;
+        font-weight: 900;
+        font-family: Cooper;
+        color: #2C3E50;
+        text-align: center;
+    }
+    .slider .overlay .txt-overlay {
+        font-family: Ebrima;
+        font-size: 19px;
+        padding-left: 15px;
+        padding-right: 15px;
+        top: 100px;
+        position: absolute;
+        color: #2C3E50;
+        margin-left: 2px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .slider .overlay {
+        position: absolute;
+        top: 200px;
+    }
+    .slider .overlay .title {
+        font-size: 27px;
+        font-weight: 900;
+        font-family: Cooper;
+        color: #2C3E50;
+        text-align: center;
+    }
+    .slider .overlay .txt-overlay {
+        font-family: Ebrima;
+        font-size: 19px;
+        top: 100px;
+        position: absolute;
+        color: #2C3E50;
+        margin-left: 2px;
+    }
+}
+
+
+/*end navbar */
+
+
+/*==================================================================================================*/
+
+
+/*start home card */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .card_project {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 200px;
+    }
+    .card_project .card {
+        border-radius: 10px;
+        box-shadow: 2.5px 2.5px 2.5px 2.5px #ddd;
+        margin-bottom: 20px;
+        margin-left: -12px;
+        width: 250px;
+        height: 250px;
+    }
+    .card_project .card .card-body img {
+        width: 240px;
+        height: 230px;
+        margin-right: 12px;
+        margin-top: -10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .card_project {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: -20px;
+    }
+    .card_project .card {
+        border-radius: 10px;
+        box-shadow: 2.5px 2.5px 2.5px 2.5px #ddd;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    .card_project .card .card-body img {
+        margin-right: 0px;
+        margin-top: -10px;
+    }
+}
