@@ -107,3 +107,147 @@
     margin-right: 12px;
     margin-top: -10px;
 }
+
+
+/*===========================================================================================*/
+
+
+/*start about page */
+
+
+/*start slider-about */
+
+.slider-about {
+    background-color: #ffffeb;
+}
+
+.slider-about img {
+    width: 41%;
+    height: 500px;
+}
+
+.slider-about .overlay {
+    position: absolute;
+    top: 170px;
+}
+
+.slider-about .overlay .title {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Cooper;
+    color: #2C3E50;
+}
+
+.slider-about .overlay .txt-overlay {
+    font-family: Ebrima;
+    font-size: 20px;
+    top: 160px;
+    position: absolute;
+    color: #2C3E50;
+    margin-left: 71px;
+}
+
+
+/* end slider-about */
+
+
+/*start card-info */
+
+.card_about .card_info {
+    margin-top: 5px;
+}
+
+.card_about .card_info .title {
+    font-weight: bold;
+    font-family: Cooper;
+}
+
+.card_about .card_info .card {
+    border: 0px;
+    box-shadow: 1px 1px 1px 1px #f5f5e3;
+    background-color: #ffffeb;
+    border-radius: 20px;
+}
+
+.card_about .card_info .card .card-body {
+    text-align: end;
+    font-style: normal;
+    font-size: 19px;
+    font-family: Hacen Liner XXL;
+    padding-left: 23px;
+}
+
+.card_about .card_info .card .btn-primary {
+    width: 101px;
+    background-color: #2C3E50 !important;
+    border-radius: 0px 20px 0px 20px;
+    color: #ffffff;
+}
+
+.card_about .card_img .card {
+    border: 0px;
+}
+
+.card_about .card_img .card .card-body img {
+    width: 343px;
+    height: 245px;
+    margin-top: 193px;
+    margin-left: 28px;
+}
+
+.card_about .card_img2 .card {
+    border: 0px;
+}
+
+.card_about .card_img2 .card .card-body img {
+    width: 500px;
+    margin-top: -21px;
+    height: 312px;
+    margin-left: 0px;
+}
+
+.card_about .card_img2 .card .card-body .img2 img {
+    width: 297px;
+    height: 320px;
+    margin-top: -16px;
+    margin-left: 146px;
+}
+
+.card_about .code_info .card-about-code img {
+    width: 700px;
+    margin-top: -70px;
+    margin-left: -45px
+}
+
+.card_about .code_info .card {
+    margin-top: -402px;
+    margin-top: -522px;
+    width: 484px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: end;
+    border: 0px;
+    margin-left: 120px;
+    background-color: #ffffeb;
+    margin-left: 60px;
+}
+
+.card_about .code_info .card h1 {
+    text-align: center;
+    font-family: Cooper;
+    font-weight: bold;
+}
+
+.card_about .code_info .card .card-body {
+    font-size: 19px;
+    font-family: Hacen Liner XXL;
+    line-height: 26.4px;
+    float: right;
+}
+
+.card_about .code_info .logo img {
+    margin-top: 54px;
+    width: 559px;
+    margin-left: -93px;
+    height: 481px;
+}
