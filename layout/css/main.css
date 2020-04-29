@@ -175,6 +175,7 @@
     font-size: 19px;
     font-family: Hacen Liner XXL;
     padding-left: 23px;
+    line-height: 48px;
 }
 
 .card_about .card_info .card .btn-primary {
@@ -250,4 +251,61 @@
     width: 559px;
     margin-left: -93px;
     height: 481px;
+}
+
+
+/* footer about  start */
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-card {
+    margin-top: 40px;
+}
+
+.footer-card .card {
+    border: 0px;
+}
+
+.footer-card .card .logo-img img {
+    width: 85%;
+}
+
+.footer-card .info-card {
+    width: 510px;
+    margin-right: 72px;
+    float: right;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    padding: 15px;
+    margin-top: 140px;
+    border-radius: 27px;
+}
+
+.footer-card .info-card .tem-img img {
+    border-radius: 50%;
+    width: 100px;
+    float: right;
+}
+
+.footer-card .info-card .tem-name {
+    float: right;
+    font-weight: bold;
+    font-size: 28px;
+    margin-right: 23px;
+    /* text-align: center; */
+    margin-top: 30px;
+    font-family: Hacen Promoter;
+}
+
+.footer-card .info-card .tem-name span {
+    float: right;
+    font-weight: bolder;
+    font-size: 28px;
+    font-family: Hacen Promoter;
 }
