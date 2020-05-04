@@ -6,6 +6,11 @@
 5-
 */
 
+body {
+    color: #2C3E50;
+    font-family: Ebrima;
+}
+
 
 /* home style */
 
@@ -73,15 +78,12 @@
     font-size: 40px;
     font-weight: 900;
     font-family: Cooper;
-    color: #2C3E50;
 }
 
 .slider .overlay .txt-overlay {
-    font-family: Ebrima;
     font-size: 20px;
     top: 160px;
     position: absolute;
-    color: #2C3E50;
     margin-left: 71px;
 }
 
@@ -135,15 +137,12 @@
     font-size: 40px;
     font-weight: 900;
     font-family: Cooper;
-    color: #2C3E50;
 }
 
 .slider-about .overlay .txt-overlay {
-    font-family: Ebrima;
     font-size: 20px;
     top: 160px;
     position: absolute;
-    color: #2C3E50;
     margin-left: 71px;
 }
 
@@ -333,7 +332,6 @@
     font-size: 40px;
     font-weight: 900;
     font-family: Cooper;
-    color: #2C3E50;
 }
 
 .slider-our .img-our img {
@@ -533,4 +531,183 @@
     border-bottom: 32px solid #fff;
     border-left: 23px solid #00000001;
     border-right: 23px solid #00000001;
+}
+
+
+/*====================================================================================*/
+
+
+/*start contact */
+
+
+/* silder our */
+
+.slider-contact img {
+    width: 100%;
+    height: 500px;
+}
+
+.slider-contact .overlay {
+    position: absolute;
+    top: 170px;
+}
+
+.slider-contact .overlay .title {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Cooper;
+    color: #2C3E50;
+}
+
+.slider-contact .img-our img {
+    height: 20%;
+    width: 10%;
+    margin-left: 72px;
+}
+
+.slider-contact .img-our p {
+    margin-top: -115px;
+    margin-left: 132px;
+}
+
+.slider-contact .overlay .txt-overlay {
+    font-family: Ebrima;
+    font-size: 29px;
+    top: 128px;
+    position: absolute;
+    font-style: inherit;
+    font-weight: initial;
+}
+
+.slider-contact .overlay .contact-icon ul {
+    list-style: none;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 36px;
+}
+
+.slider-contact .overlay .contact-icon .icons {
+    background-color: #31859C;
+    border-radius: 50%;
+    margin-left: 16px;
+    padding: 10px;
+}
+
+.slider-contact .overlay .contact-icon .icons i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.contact {
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin-top: -63px;
+    border-radius: 45px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 23px;
+}
+
+.contact-inf .inf {
+    margin-left: 71px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    padding: 10px;
+    width: 390px;
+}
+
+.contact-inf h1 {
+    font-weight: bold;
+    font-family: Cooper;
+}
+
+.contact-inf .inf img {
+    width: 74px;
+    float: left;
+    margin-top: -23px;
+    margin-left: -24px;
+}
+
+.contact .contac-img .img img {
+    position: absolute;
+    position: absolute;
+    margin-top: 133px;
+    float: right;
+    margin-left: -449px;
+}
+
+.contact .contac-img .back-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 47px;
+}
+
+
+/*========================================================================================*/
+
+
+/*start prgram page */
+
+.slider-program img {
+    width: 100%;
+    height: 500px;
+}
+
+.slider-program .overlay {
+    position: absolute;
+    top: 170px;
+}
+
+.slider-program .overlay .title {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Cooper;
+    color: #2C3E50;
+}
+
+.slider-program .overlay .txt-overlay {
+    font-family: Ebrima;
+    font-size: 29px;
+    top: 71px;
+    position: absolute;
+    font-style: inherit;
+    font-weight: initial;
+}
+
+.program-title {
+    text-align: center;
+    font-family: Cooper;
+    font-weight: bold;
+}
+
+.card-program {
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin-top: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    height: 306px;
+}
+
+.card-program .card-body img {
+    width: 307px;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin-left: -32px;
+    background-color: #fff;
+    margin-top: -41px;
+    border-radius: 20px;
+    height: 230px;
+}
+
+.card-program .card-footer {
+    border: none;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.card-program .card-footer .btn-primary {
+    width: 317px;
+    padding: 11px;
+    border-radius: 0px 22px 0px 18px;
+    margin-left: -31px;
+    background-color: #2C3E50;
 }
