@@ -668,7 +668,7 @@ body {
 .slider-program .overlay .txt-overlay {
     font-family: Ebrima;
     font-size: 29px;
-    top: 71px;
+    top: 135px;
     position: absolute;
     font-style: inherit;
     font-weight: initial;
@@ -710,4 +710,187 @@ body {
     border-radius: 0px 22px 0px 18px;
     margin-left: -31px;
     background-color: #2C3E50;
+}
+
+
+/*==================================================================================================*/
+
+
+/* start courese */
+
+.slider .carousel-item {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider .carousel-indicators li {
+    height: 8px;
+    cursor: pointer;
+    background-color: #2C3E50;
+    color: #B78300;
+}
+
+.slider-courese .overlay .txt-overlay {
+    font-size: 20px;
+    top: 129px;
+    position: absolute;
+    margin-left: 71px;
+}
+
+.slider-courese .carousel-two .overlay {
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+.slider-courese .carousel-two .overlay .txt-overlay {
+    margin-left: 12px;
+}
+
+.slider-courese .carousel-three .overlay {
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+.slider-courese .carousel-three .overlay .txt-overlay {
+    margin-left: 12px;
+}
+
+
+/*start card courese */
+
+.coureses-title {
+    text-align: center;
+    font-family: Cooper;
+    font-weight: bold;
+}
+
+.courese-body {
+    margin-bottom: 14%;
+}
+
+
+/*start  card data style */
+
+.courese-data {
+    background-color: #5585ff75;
+}
+
+
+/*start courese-Data-Science */
+
+.courese-Data-Science {
+    background-color: #ff256875;
+}
+
+
+/*end */
+
+
+/*start courese-Machine */
+
+.courese-Machine {
+    background-color: #23C2CA;
+}
+
+
+/*end */
+
+
+/*start courese-English */
+
+.courese-English {
+    background-color: #fcb60680;
+}
+
+
+/*end */
+
+
+/*start courese-Arduino*/
+
+.courese-Arduino {
+    background-color: #346a9080;
+}
+
+
+/*end */
+
+
+/*start courese-Internet*/
+
+.courese-Internet {
+    background-color: #ce118980;
+}
+
+
+/*end */
+
+
+/*start card courese-sec */
+
+.courese-sec {
+    background-color: #fcb60680;
+}
+
+.courese-sec .title p {
+    margin-top: -55px !important;
+}
+
+
+/* end */
+
+
+/*start courese-Embedded card */
+
+.courese-Embedded {
+    background-color: #01457475;
+}
+
+.courese-Embedded .title p {
+    margin-top: -55px !important;
+}
+
+
+/*end */
+
+.courese-body .title img {
+    width: 43%;
+    margin-left: -22px;
+    margin-top: -92px;
+}
+
+.courese-body .title p {
+    margin-top: -66px;
+    margin-left: 109px;
+    font-size: 18px;
+    font-family: Cooper;
+    font-weight: bold;
+}
+
+.card-courese {
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin-top: 79px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    height: 280px;
+    background-color: #fff;
+}
+
+.card-courese .card-body img {
+    width: 325px;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin-left: -24px;
+    background-color: #fff;
+    margin-top: -42px;
+    border-radius: 20px;
+    height: 230px;
+}
+
+.card-courese .btn-primary {
+    border-radius: 0px 22px 0px 14px;
+    margin-left: 0px;
+    background-color: #2C3E50;
+    margin-top: 5px;
 }
