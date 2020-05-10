@@ -214,15 +214,15 @@ body {
 }
 
 .card_about .code_info .card-about-code img {
-    width: 700px;
+    width: 619px;
     margin-top: -70px;
-    margin-left: -45px
+    height: 560px;
+    margin-left: -45px;
 }
 
 .card_about .code_info .card {
-    margin-top: -402px;
-    margin-top: -522px;
-    width: 484px;
+    margin-top: -418px;
+    width: 405px;
     padding-left: 18px;
     padding-right: 18px;
     text-align: end;
@@ -247,9 +247,8 @@ body {
 
 .card_about .code_info .logo img {
     margin-top: 54px;
-    width: 559px;
-    margin-left: -93px;
-    height: 481px;
+    width: 519px;
+    margin-left: -47px;
 }
 
 
@@ -261,6 +260,7 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
+    margin-top: 20px;
 }
 
 .footer-card {
@@ -272,7 +272,9 @@ body {
 }
 
 .footer-card .card .logo-img img {
-    width: 85%;
+    width: 100%;
+    margin-top: 145px;
+    padding: 15px;
 }
 
 .footer-card .info-card {
@@ -282,14 +284,17 @@ body {
     margin-bottom: 10px;
     box-shadow: 1px 1px 1px 1px #ddd;
     padding: 15px;
-    margin-top: 140px;
+    margin-top: 10px;
     border-radius: 27px;
 }
 
 .footer-card .info-card .tem-img img {
     border-radius: 50%;
     width: 100px;
+    height: 100px;
     float: right;
+    margin: 5px;
+    padding: 5px;
 }
 
 .footer-card .info-card .tem-name {
@@ -297,8 +302,7 @@ body {
     font-weight: bold;
     font-size: 28px;
     margin-right: 23px;
-    /* text-align: center; */
-    margin-top: 30px;
+    margin: 15px;
     font-family: Hacen Promoter;
 }
 
@@ -777,6 +781,8 @@ body {
     text-align: center;
     font-family: Cooper;
     font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 50px;
 }
 
 .courese-body {

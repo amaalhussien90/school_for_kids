@@ -378,7 +378,7 @@
         margin-right: 15px;
     }
     .card_about .code_info .card {
-        margin-top: -656px;
+        margin-top: -648px;
         width: 202px;
         padding-left: 0px;
         padding-right: 0px;
@@ -390,16 +390,14 @@
     }
     .footer-card .info-card {
         width: 90%;
-        margin-right: 72px;
+        margin-right: 15px;
         float: right;
         margin-bottom: 10px;
         box-shadow: 1px 1px 1px 1px #ddd;
         padding: 8px;
         margin-top: 19px;
         border-radius: 27px;
-        float: right;
         margin-left: 0px;
-        position: absolute;
     }
     .card_about .code_info .logo img {
         margin-top: -10px;
@@ -510,6 +508,114 @@
         padding-right: 10px;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1022px) {
+    .card_about .card_info {
+        margin-top: 5px;
+        padding-left: 10px;
+    }
+    .card_about .card_info .card {
+        border: 0px;
+        box-shadow: 1px 1px 1px 1px #f5f5e3;
+        background-color: #ffffeb;
+        border-radius: 20px;
+        width: 228px;
+    }
+    .card_about .code_info .card .card-body {
+        line-height: 41.4px;
+    }
+    .card_about .card_info .card .card-body {
+        text-align: end;
+        font-style: normal;
+        font-size: 19px;
+        font-family: Hacen Liner XXL;
+        padding-left: 23px;
+        line-height: 48px;
+    }
+    .card_about .card_info .card .btn-primary {
+        width: 101px;
+        background-color: #2C3E50 !important;
+        border-radius: 0px 20px 0px 20px;
+        color: #ffffff;
+    }
+    .card_about .card_img .card {
+        border: 0px;
+    }
+    .card_about .card_img .card .card-body img {
+        width: 176%;
+        height: 285px;
+        margin-top: 46px;
+        margin-left: -61px;
+    }
+    .card_about .card_img2 .card {
+        border: 0px;
+    }
+    .card_about .card_img2 .card .card-body img {
+        width: 222px;
+        margin-left: -59px;
+    }
+    .card_about .card_img2 .card .card-body .img2 img {
+        margin-top: 12px;
+        margin-left: -17px;
+        margin-right: 0px;
+        width: 185px;
+        height: 218px;
+    }
+    .card_about .code_info .card-about-code img {
+        width: 133%;
+        margin-top: -29px;
+        height: 850px
+    }
+    .card_about .code_info .card-about-code {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .card_about .code_info .card {
+        margin-top: -710px;
+        width: 267px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: end;
+        border: 0px;
+        margin-left: 120px;
+        background-color: #ffffeb;
+        margin-left: 50px;
+        border-radius: 41px;
+    }
+    .card_about .code_info .card .card-body {
+        font-size: 20px;
+    }
+    .footer-card .info-card {
+        width: 350px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        box-shadow: 1px 1px 1px 1px #ddd;
+        padding: 8px;
+        margin-top: 37px;
+        border-radius: 27px;
+        float: right;
+    }
+    .footer-card {
+        margin: 0% auto;
+    }
+    .card_about .code_info .logo img {
+        width: 380px;
+        height: 315px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 50% auto;
+    }
+    .footer-card .card .logo-img img {
+        margin-top: 341px;
+        padding: 15px;
+        width: 100%;
+        position: absolute;
+        margin-left: -176px;
+    }
+}
+
+
+/*start style for ipad */
 
 
 /*=========================================================================================================*/
