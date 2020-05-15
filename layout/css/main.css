@@ -952,24 +952,9 @@ body {
 .card-slider .card-coureses {
     box-shadow: 1px 1px 1px 1px #ddd;
     border-radius: 12px;
+    margin-top: 23px;
     background-color: #fff;
-}
-
-.card-slider .data-carousel {
-    margin-top: 30px;
-    padding-top: 10px;
-    margin-bottom: 30px;
-    padding-bottom: 10px;
-}
-
-.card-slider .data-carousel .prev i {
-    margin-right: 163px;
-    color: #000;
-}
-
-.card-slider .data-carousel .next i {
-    margin-right: -148px;
-    color: #000;
+    margin-bottom: 23px;
 }
 
 .card-slider .card-coureses .btn-warning {

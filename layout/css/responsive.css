@@ -1301,9 +1301,6 @@
             font-family: Cooper;
             font-weight: bold;
         }
-        .card-slider .data-carousel .next i {
-            display: none;
-        }
         .card-slider {
             margin: 5% auto;
             margin-bottom: 30%;
@@ -1343,9 +1340,6 @@
             margin-top: 5px;
             border-radius: 20px;
         }
-        .card-slider .data-carousel .next i {
-            display: none;
-        }
         .courese-body .title img {
             width: 60%;
             margin-left: -16px;
@@ -1365,12 +1359,6 @@
             width: auto;
             margin-left: 0px;
             height: 150px;
-        }
-        .card-slider .data-carousel .next i {
-            margin-left: -66px;
-        }
-        .card-slider .data-carousel .prev i {
-            margin-right: 100px;
         }
         .courese-body .title p {
             margin-top: -48px !important;
